@@ -30,7 +30,7 @@ public class StringRunner {
 		System.out.println(nissan);
 		
 		System.out.println("\nString compareTo() method");
-		String a="Anup";
+		String a="Suraj";
 	    int result=a.compareTo("Anoop");
 		System.out.println(result);
 		
@@ -64,7 +64,7 @@ public class StringRunner {
 		System.out.println(cricketer);
 		
 		System.out.println("\nString toUpperCase() method");
-		String name="Prajwal L";
+		String name="Darshan";
 		String name1=name.toUpperCase();
 		System.out.println(name1);
 		
