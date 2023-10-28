@@ -8,11 +8,11 @@ public class States {
 	
 	 public static void main(String[] args) {
 	        Collection<String> statesCollection = new ArrayList<>();
-	        statesCollection.add("Andhra Pradesh");
+	        statesCollection.add("kerala");
 	        statesCollection.add("Arunachal Pradesh");
-	        statesCollection.add("Assam");
+	        statesCollection.add("varnasi");
 	        statesCollection.add("Bihar");
-	        statesCollection.add("Chhattisgarh");
+	        statesCollection.add("Pondicharry");
 	        statesCollection.add("Goa");
 	        statesCollection.add("Gujarat");
 	        statesCollection.add("Haryana");
