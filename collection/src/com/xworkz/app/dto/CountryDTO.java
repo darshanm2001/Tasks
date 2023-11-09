@@ -116,6 +116,82 @@ public class CountryDTO  {
 	+ nationalAnimal + ", nationalBird=" + nationalBird + ", nationalSport=" + nationalSport
 	+ ", primeMinisterName=" + primeMinisterName + "]";
 	}
-	   
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((capitalCity == null) ? 0 : capitalCity.hashCode());
+		result = prime * result + id;
+		result = prime * result + ((independenceDate == null) ? 0 : independenceDate.hashCode());
+		result = prime * result + (independent ? 1231 : 1237);
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + ((nationalAnimal == null) ? 0 : nationalAnimal.hashCode());
+		result = prime * result + ((nationalBird == null) ? 0 : nationalBird.hashCode());
+		result = prime * result + ((nationalSport == null) ? 0 : nationalSport.hashCode());
+		result = prime * result + noOfStates;
+		result = prime * result + (int) (population ^ (population >>> 32));
+		result = prime * result + ((primaryReligion == null) ? 0 : primaryReligion.hashCode());
+		result = prime * result + ((primeMinisterName == null) ? 0 : primeMinisterName.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		CountryDTO other = (CountryDTO) obj;
+		if (capitalCity == null) {
+			if (other.capitalCity != null)
+				return false;
+		} else if (!capitalCity.equals(other.capitalCity))
+			return false;
+		if (id != other.id)
+			return false;
+		if (independenceDate == null) {
+			if (other.independenceDate != null)
+				return false;
+		} else if (!independenceDate.equals(other.independenceDate))
+			return false;
+		if (independent != other.independent)
+			return false;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		if (nationalAnimal == null) {
+			if (other.nationalAnimal != null)
+				return false;
+		} else if (!nationalAnimal.equals(other.nationalAnimal))
+			return false;
+		if (nationalBird == null) {
+			if (other.nationalBird != null)
+				return false;
+		} else if (!nationalBird.equals(other.nationalBird))
+			return false;
+		if (nationalSport == null) {
+			if (other.nationalSport != null)
+				return false;
+		} else if (!nationalSport.equals(other.nationalSport))
+			return false;
+		if (noOfStates != other.noOfStates)
+			return false;
+		if (population != other.population)
+			return false;
+		if (primaryReligion == null) {
+			if (other.primaryReligion != null)
+				return false;
+		} else if (!primaryReligion.equals(other.primaryReligion))
+			return false;
+		if (primeMinisterName == null) {
+			if (other.primeMinisterName != null)
+				return false;
+		} else if (!primeMinisterName.equals(other.primeMinisterName))
+			return false;
+		return true;
+	}   
 	   
 	}
