@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Display</title>
+<title>Registration</title>
 
 <link
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -22,17 +22,19 @@ crossorigin="anonymous">
 </body>
 <h1><span style='color:red;'>Details submitted successfully..</span></h1>
 <h2 style:'color:green;'>
-name: ${name}<br>
-mobileNumber: ${mobileNumber}<br>
-email: ${email}<br>
-dob: ${dob}<br>
-location: ${location}<br>
-password: ${password}<br>
-confirmPassword: ${confirmPassword}<br>
-
+siNo: ${siNo}<br>
+Fname: ${Fname}<br>
+Lname: ${LName}<br>
+Mname: ${Mname}<br>
+Email: ${Email}<br>
+gender: ${gender}<br>
+contactNo: ${contactNo}<br>
+area: ${area}<br>
+distic: ${distic}<br>
+pincode: ${pincode}<br>
 </h2>
 <script
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 crossorigin="anonymous"></script>
-</html>
+</html> 

@@ -23,7 +23,7 @@ public class ApplicationForm extends HttpServlet{
 
 
 	req.setAttribute("name", name);
-	req.setAttribute("mobile", mobileNumber);
+	req.setAttribute("mobileNumber", mobileNumber);
 	req.setAttribute("email", email);
 	req.setAttribute("password", password);
 	req.setAttribute("confirmPassword", confirmPassword);
